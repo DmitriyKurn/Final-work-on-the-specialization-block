@@ -1,4 +1,4 @@
-**Задание №1**
+**Задание № 1**
 
 ***Создаем файл с домашними животными***
 
@@ -39,14 +39,15 @@ donkeys\
 
 user@fv4788umrms25brka0r7:~$ mv animals human_friends
 
-**Задание №2**
+**Задание № 2**
 
-user@fv4788umrms25brka0r7:~$ mkdir Human_Friends\
-user@fv4788umrms25brka0r7:~$ mv human_friends ~/ Human_Friends\
-user@fv4788umrms25brka0r7:~$ ls Human_Friends\
-human_friends
+user@fv4788umrms25brka0r7:~$ mkdir Human_Friends
 
-**Задание №3**
+user@fv4788umrms25brka0r7:~$ mv human_friends ~/ Human_Friends
+
+user@fv4788umrms25brka0r7:~$ ls Human_Friends human_friends
+
+**Задание № 3**
 
 ***Загружаем репозиторий***
 
@@ -63,4 +64,23 @@ user@fv4788umrms25brka0r7:~$ sudo apt-get update
 ***Подключение***
 
 user@fv4788umrms25brka0r7:~$ sudo apt-get install mysql-server
+
+**Задание № 4**
+
+***Загружаем deb пакет***
+
+user@fv4788umrms25brka0r7:~$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+***Установка***
+
+user@fv4788umrms25brka0r7:~$ sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+***Находим пакет***
+
+user@fv4788umrms25brka0r7:~$ sudo dpkg -S /usr/bin/google-chrome-stable
+
+***Удаляем***
+
+user@fv4788umrms25brka0r7:~$ sudo dpkg --purge google-chrome-stable
+
 
