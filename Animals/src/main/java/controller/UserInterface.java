@@ -64,12 +64,12 @@ public class UserInterface {
     private void addAnimal() throws Exception {
         System.out.println("Необходимо ввести:");
         System.out.println("\t- имя животного,");
-        System.out.println("\t- дату его рождения (в формате 01.02.2022) или возраст");
+        System.out.println("\t- дату его рождения (в формате 01.01.2024) или возраст");
         System.out.println("\t- вес животного,");
         System.out.println("\t- род животного (Кошка, Собака, Хомяк, Лошадь, Верблюд, Осёл).");
         System.out.println("Введите имя:");
         String name = scanner.nextLine();
-        System.out.println("Введите дату рождения животного в формате 01.02.2022 или возраст: ");
+        System.out.println("Введите дату рождения животного в формате 01.01.2024 или возраст: ");
         String birthday = scanner.nextLine();
         System.out.println("Введите вес животного:");
         double weight = Double.parseDouble(scanner.nextLine());

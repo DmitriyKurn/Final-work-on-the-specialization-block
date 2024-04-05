@@ -9,9 +9,9 @@ public enum AnimalType {
     CAT(1, "кошка"),
     DOG(2, "собака"),
     HAMSTER(3, "хомяк"),
-    HORSE(4, "хомяк"),
-    DONKEY(5, "хомяк"),
-    CAMEL(6, "хомяк");
+    HORSE(4, "лошадь"),
+    DONKEY(5, "осел"),
+    CAMEL(6, "верблюд");
 
     int typeIndex;
     String typeText;
