@@ -108,12 +108,7 @@ INSERT INTO
 VALUES
     (1, 'Бурый', '2020-04-17', 'seat run eat load-cargo'),
     (1, 'Пегий', '2021-02-02', 'seat run eat load-cargo'),
-    (
-        1,
-        'Изумруд',
-        '2024-01-02',
-        'seat run eat load-cargo'
-    ),
+    (1, 'Изумруд', '2024-01-02','seat run eat load-cargo'),
     (1, 'Буран', '2022-07-08', 'seat run eat load-cargo'),
     (1, 'Тяж', '2024-01-01', 'seat run eat load-cargo');
 
